@@ -64,7 +64,7 @@ html{
 
 #container{
     width:96%;
-	min-width: 800px;
+	min-width: 860px;
     min-height: 700px;
 	background-color:rgb(255, 216, 144);
 	border-radius: 8px;
@@ -184,7 +184,7 @@ html{
 	color: #333;
 	float: right;
 	text-align: center;
-	width: 60px;
+	width: 50px;
 }
 
 #productList span {
