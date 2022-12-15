@@ -1,0 +1,44 @@
+[
+    {
+        "Name" : "Educated",
+        "Status" : "books",
+        "Discrip" : "In this memoir from Tara Westover, we learn about her childhood in a Mormon fundamentalist household around the house, farm, and mountain in rural Idaho.",
+        "price" : 20.00,
+        "image" : ["educated.jpg"]
+	},
+    {
+        "Name" : "YouTube Icon T-shirt",
+        "Status" : "Clothing",
+        "Discrip" : "This ultra soft YouTube tee is the perfect shirt for relaxing and watching your favorite videos.",
+        "price" : 22.00,
+        "image" : ["youtube.jpg"]
+	},
+    {
+        "Name" : "ice peak",
+        "Status" : "drinks",
+        "Discrip" : "Classic Orange Soda from China Shaan'Xi",
+        "price" : 0.99,
+        "image" : ["icepeak.jpg"]
+    },
+    {
+        "Name" : "Dji Avata",
+        "Status" : "Electronics",
+        "Discrip" : "New VR diving Drones from Dji, Immersive Flight Experience, Intuitive Motion Control, 4K/60fps 155° Super-Wide FOV Videos",
+        "price" : 1389.99,
+        "image" : ["avata.jpg"]
+    },
+    {
+        "Name" : "Wei Long La Tiao",
+        "Status" : "snacks",
+        "Discrip" : "Latiao is a popular Chinese snack. The main raw materials are wheat flour and chili. After adding water, salt, sugar, natural pigment and other surface, the flour is extruded under high temperature, then mixed with chili.",
+        "price" : 5.99,
+        "image" : ["latiao.jpg"]
+    },
+    {
+        "Name" : "Unicorn Gundam model kit",
+        "Status" : "toys",
+        "Discrip" : "PG RX-0 Unicorn Gundam Model Kit (1/60 Scale) from BANDAI",
+        "price" : 450.00,
+        "image" : ["UnicornGundam.jpg"]
+    }
+]

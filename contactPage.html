@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="formValidate.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header id="pageTop">
+        <h2><a href = "index.html"> O V E R - S E A</a></h2>
+    </header>
+    <nav id="mainLink">
+        <ul>
+            <li><a href="index.html">Over - Sea</a></li>
+            <li><a href="#">New Products(coming soon)</a></li>
+            <li><a href="#">Signature Recommendations(coming soon)</a></li>
+            <li><a href="productPage.html">All Products</a></li>
+            <li><a href="contactPage.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <form id="commendForm" action="thanks.html" method="post">
+            <ul>
+                <li>
+                    <label for="firstname">First Name:</label>
+                    <input id="firstname" name="firstname" type="text" />
+                    <p class="infor error" id="firstname_error">* Required field</p>
+                </li>
+                <li>
+                    <label for="lastname">Last Name:</label>
+                    <input id="lastname" name="lastname" type="text" />
+                    <p class="infor error" id="lastname_error">* Required field</p>
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="text" placeholder="anything@anybrand.anydomain"/>
+                    <p class="infor error" id="email_error">* Required field</p>
+                    <p class="infor error" id="emailformat_error">* Invalid email address</p>
+                </li>
+            </ul>
+            <fieldset id="Ques">
+				<legend>If you have any questions for any product you can ask here</legend>
+                <textarea rows="1" name="questionlink" id="questionlink" placeholder="You Can Always include the item page link here"></textarea><br>
+		        <textarea rows="10" name="question" id="question" placeholder="What questions are you having with the product above? Once submitted we'll give you a reply via E-mail as soon as possible"></textarea><br>
+            </fieldset>
+            <fieldset id="Sugg">
+				<legend>Give us some suggestions and commends</legend>
+		        <textarea rows="10" name="commends" id="comeends" placeholder="Asking for a better price, specific product that you want us to import, Anything"></textarea><br>
+            </fieldset>
+            <button type="submit" id="submit">Submit</button>
+		    <button type="reset" id="clear">Reset</button>
+        </form>
+    </div>
+    <footer id="pageBot">
+        <ul>
+            <li><a href="index.html">Over - Sea</a></li>
+            <li><a href="#">New Products</a></li>
+            <li><a href="#">Signature Recommendations</a></li>
+            <li><a href="productPage.html">All Products</a></li>
+            <li><a href="contactPage.html">Contact Us</a></li>
+        </ul>
+        <ul>
+            <li>Copyright &#169; 2022 <a href="index.html">Over - Sea</a></li>
+        </ul>
+        <ul id="last">
+            <li><a href="https://www.google.com/maps/place/Winnipeg,+MB/@49.8539176,-97.2929216,11z/data=!3m1!4b1!4m5!3m4!1s0x52ea73fbf91a2b11:0x2b2a1afac6b9ca64!8m2!3d49.8954221!4d-97.1385145">404 DoesntExist St, Winterpeg, Manisnowba</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
