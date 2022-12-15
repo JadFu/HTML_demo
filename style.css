@@ -157,6 +157,7 @@ html{
 	margin: 1px auto;
 	margin-left: -40px;
 	min-height: 126px;
+	min-width: 720px;
 	box-shadow: 1px 1px 2px #A2A2A2, -1px -1px 2px #A2A2A2;
 }
 
